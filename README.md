@@ -1,7 +1,7 @@
 # page-rank
 PageRank algorithm for search
 
-Create search engine, with 'small.csv.gz' which is an example graph from "Deeper Inside Pagerank" research paper.
+Create search engine for Lawfare Blog. There are two datasets available: 'small.csv.gz' is a smaller, example graph from "Deeper Inside Pagerank" research paper and 'lawfareblog.csv.gz' is the main file to test on.
 
 To run:
 ```
