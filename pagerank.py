@@ -103,9 +103,7 @@ class WebGraph():
             v = torch.ones(n)
 
         else:
-            # FIXME: your code goes here
             # call url_satisfies_query for each url in personalization vector
-            # code is 5 lines 
             # LOOP OVER EACH URL TO CHECK IF IT SATISFIES QUERY, set entry to 1, else: 0
             v = torch.zeros(n)
             for i in range(n):
@@ -140,18 +138,11 @@ class WebGraph():
                 x0 = torch.Tensor([1/(math.sqrt(n))]*n)
                 x0 = torch.unsqueeze(x0,1)
             x0 /= torch.norm(x0)
-            # make sure x variable has same shape
-            # task 1: don't receate v variable, task 2: do recreate
             print("x0.shape",x0.shape)
 
             # main loop
-            # FIXME: your code goes here
             # implement equation 5.1 in notes, will be inside loop until (xk - xk-1) <= epsilon
             # use sparse matrix multiplication function (first param sparse, second param dense)
-            # flip parameters with equation 5.1 - first is dense, second is sparse
-            # Be careful with transpose!!!
-            # HINT: solution = less than 10 lines long
-            
             
             x = x0
             a = torch.zeros(n) # set to all 0s
