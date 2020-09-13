@@ -1,7 +1,7 @@
 # page-rank
-PageRank algorithm for search
+PageRank algorithm for search 
 
-I created a search engine for Lawfare Blog, which provides legal analysis on US national security issues. There are two datasets in this repo: 'small.csv.gz' is a smaller, example graph from "Deeper Inside Pagerank" research paper and 'lawfareblog.csv.gz' is the main file to test on.
+I created a search engine for [Lawfare Blog](https://www.lawfareblog.com/), which provides legal analysis on US national security issues. There are two datasets in this repo: 'small.csv.gz' is a smaller, example graph from "Deeper Inside Pagerank" research paper and 'lawfareblog.csv.gz' is the main file to test on.
 
 To run, type the command in terminal and it should return the following output:
 ```
