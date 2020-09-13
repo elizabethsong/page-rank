@@ -13,7 +13,7 @@ INFO:root:rank=3 pagerank=1.9498e-01 url=2
 INFO:root:rank=4 pagerank=9.9210e-02 url=3
 INFO:root:rank=5 pagerank=8.9347e-02 url=1
 ```
-Using the `--search_query` option with a string input, it outputs all urls that match the query string sorted according to their pagerank.
+Using the `--search_query` option with a string input, it outputs all urls, which match the query string, sorted according to their pagerank.
 ```
 python3 pagerank.py --data=./lawfareblog.csv.gz --search_query='corona'
 INFO:root:rank=0 pagerank=4.5861e-03 url=www.lawfareblog.com/lawfare-podcast-united-nations-and-coronavirus-crisis
@@ -29,7 +29,7 @@ INFO:root:rank=9 pagerank=2.0339e-03 url=www.lawfareblog.com/cyberlaw-podcast-ho
 
 ```
 
-Alternatively, run make_personalization_vector function to filter and search. This returns web pages that are important if other coronavirus webpages think it's important. 
+Alternatively, run make_personalization_vector function to filter and search. This command returns web pages that are important if other coronavirus webpages think it's important. 
 
 To run:
 ```
