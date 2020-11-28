@@ -13,7 +13,7 @@ import math
 
 import logging
 
-vectors = gensim.downloader.load("glove-twitter-25")
+vectors = gensim.downloader.load("glove-twitter-100")
 class WebGraph():
 
     def __init__(self, filename, max_nnz=None, filter_ratio=None):
