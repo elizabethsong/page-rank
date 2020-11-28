@@ -42,6 +42,7 @@ INFO:root:rank=7 pagerank=0.0008373793680220842 url=www.lawfareblog.com/shift-js
 INFO:root:rank=8 pagerank=0.0007870369008742273 url=www.lawfareblog.com/atomwaffen-division-member-pleads-guilty-firearms-charge
 INFO:root:rank=9 pagerank=0.0007856971933506429 url=www.lawfareblog.com/waiving-imminent-threat-test-cia-drone-strikes-pakistan
 ```
+Note, many of these search results do not contain the keyword directly in the URL and instead includes "drone," "drones," etc. which are similar keywords to "weapons."
 
 Alternatively, run make_personalization_vector function to filter and search. This command returns web pages that are important if other coronavirus webpages think it's important. 
 
